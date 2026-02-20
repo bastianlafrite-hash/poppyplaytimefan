@@ -1,10 +1,6 @@
 'use strict';
 
-/* ══════════════════════════════════════════════
-   SYSTÈME DE TRADUCTION FR / EN
-   Ajouter ce fichier AVANT la fermeture </body>
-   et ajouter <script src="lang.js"></script>
-══════════════════════════════════════════════ */
+
 
 const TRANSLATIONS = {
   fr: {
@@ -1025,4 +1021,5 @@ function updateChapData(lang, t) {
 }
 
 // Démarrer
+
 document.addEventListener('DOMContentLoaded', initLanguageSwitcher);
